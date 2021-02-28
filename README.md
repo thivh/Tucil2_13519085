@@ -10,7 +10,6 @@ Python 3.7.4 or higher
 3. Masukkan input nama file dalam bentuk txt (contoh: "test1.txt"). Nama file txt dapat dilihat pada folder "test"
 4. Tunggu sampai program mengeluarkan output
 
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Author
 Nizamixavier Rafif Lutvie
-(13519085)
+13519085
