@@ -10,7 +10,7 @@ def ambilKuliah(katastorage,semester,prequisite,currsem):
                 prequisite.pop(i)
             else:
                 i = i + 1
-        # menghapus prequisite matkul yang mengandung matkul yang telah dihapus 
+        # untuk setiap matkul di array semester,dihapus prequisite matkul yang mengandung matkul yang telah dihapus 
         for i in range(len(semester[currsem - 1])):
             for j in range(len(katastorage)):
                 k = 0
