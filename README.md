@@ -1,12 +1,15 @@
 # Tugas Kecil 2 Strategi Algoritma: Decrease and Conquer
-Algoritma Decrease and Conquer adalah metode desain algoritma dengan mereduksi persoalan menjadi beberapa sub persoalan yang lebih kecil, tetapi selanjutnya hanya memproses satu sub persoalan saja.
+Program melakukan topological sorting dengan menerapkan algoritma decrease and conquer. Pada program terdapat prosedur rekursif yang berisi:
+1. Jika terdapat sudut yang semua simpulnya mengarah keluar (terdapat matkul yang prerequisite-nya berjumlah 0), maka matkul tersebut dimasukkan ke dalam array solusi (dimasukkan ke dalam array semester)
+2. Semua simpul yang sebelumnya terhubung dengan simpul yang terhapus (matkul yang salah satu prerequisite-nya adalah matkul yang terhapus) akan dihapus
+3. Prosedur akan dipanggil kembali dengan setiap pemanggilan prosedur akan mengubah jumlah semester. Prosedur akan terus dipanggil sampai jumlah semester mencapai 8 atau seluruh matkul sudah dimasukkan ke dalam array solusi  
 
 ## Requirements
 Python 3.7.4 or higher
 
 ## How to Use
-1. Buka terminal dan pastikan sudah berada di directory folder "src"
-2. Jalankan program bernama "13519085.py" dengan memasukkan input "py 13519085.py"
+1. Buka terminal dan pastikan directory sudah berada di folder "src"
+2. Jalankan program bernama "13519085.py" dengan memasukkan input "python3 13519085.py"
 3. Masukkan input nama file dalam bentuk txt (contoh: "test1.txt"). Nama file txt dapat dilihat pada folder "test"
 4. Tunggu sampai program mengeluarkan output
 
